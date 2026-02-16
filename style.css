@@ -1,0 +1,27 @@
+body {
+    text-align:center;
+    background:#1e1e1e;
+    color:white;
+    font-family:Arial;
+}
+
+#board {
+    width:340px;
+    margin:auto;
+    margin-top:20px;
+}
+
+.controls {
+    margin-top:15px;
+}
+
+button, select {
+    padding:10px;
+    font-size:16px;
+    margin:5px;
+}
+
+#timer {
+    margin-top:15px;
+    font-size:24px;
+}
