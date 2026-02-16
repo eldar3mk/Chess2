@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Chess vs Bot</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- مهم جداً: jQuery أولاً -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- مكتبة شكل الرقعة -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard.min.js"></script>
+
+<!-- قوانين الشطرنج -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.13.4/chess.min.js"></script>
+
+<!-- البوت -->
+<script src="https://cdn.jsdelivr.net/npm/stockfish/stockfish.js"></script>
+
+</head>
+
+<body>
+
+<h1>♟️ Chess vs Bot</h1>
+
+<div id="board"></div>
+
+<div class="controls">
+<select id="difficulty">
+<option value="5">سهل</option>
+<option value="10">متوسط</option>
+<option value="15">صعب</option>
+</select>
+
+<button onclick="resetGame()">إعادة اللعبة</button>
+</div>
+
+<div id="timer">10:00</div>
+
+<script src="sounds.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
